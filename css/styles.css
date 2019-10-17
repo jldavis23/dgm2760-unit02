@@ -1,0 +1,9 @@
+header, main, footer {
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+header {
+    background: url("../images/clouseau.jpg") 75% no-repeat, #bcbcbc;
+    height: 200px;
+}
