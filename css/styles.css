@@ -1,9 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
 header, main, footer {
     max-width: 60rem;
     margin: 0 auto;
 }
 
+h1, h2 {
+    font-family: 'Vollkorn', serif;
+}
+
+/* ------- HEADER -------- */
+
 header {
-    background: url("../images/clouseau.jpg") 75% no-repeat, #bcbcbc;
+    background: url("../images/inspector.jpg") 90% no-repeat, #030303;
     height: 200px;
+    padding: 1px 2%;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 40px;
+}
+
+header h2 {
+    color: #fff;
+}
+
+/* ------- MAIN -------- */
+
+main {
+    padding: 0 2%;
+}
+
+main h2 {
+    color: #988d71;
+}
+
+div.property-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 5px;
+}
+
+div.property-container div {
+    padding: 0;
+    margin: 0;
+    border: 1px solid #988d71;
+}
+
+div.property-container div h2 {
+    margin: 0px;
+    background-color: #988d71;
+    padding: 5px;
+    color: #fff;
+}
+
+div.property-container div p {
+    margin: 10px 2%;
+}
+
+/* ------- FOOTER -------- */
+
+footer {
+    text-align: center;
+    background-color: #030303;
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
 }

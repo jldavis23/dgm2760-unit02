@@ -6,7 +6,9 @@
     <title>02 Inspector Clouseau</title>
 
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Vollkorn&display=swap" rel="stylesheet">
 </head>
+
 <body onresize="reDisplay()" on>
     <header>
         <h1></h1>
@@ -21,11 +23,18 @@
             <li>Display Document Properties</li>
         </ul>
 
-        <h2>Window Properties</h2>
-        <p id="myWindow"></p>
-
-        <h2>Document Properties</h2>
-        <p id="myDocument"></p>        
+        <div class="property-container">
+            <div>
+                <h2>Window Properties</h2>
+                <p id="myWindow"></p>
+            </div>
+            
+            <div>
+                <h2>Document Properties</h2>
+                <p id="myDocument"></p>  
+            </div> 
+        </div>
+             
     </main>
 
     <footer>
